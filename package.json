@@ -1,5 +1,5 @@
 {
-  "name": "appskel-js",
+  "name": "appskel-koa",
   "version": "0.0.0",
   "description": "Koa + SQL application seed.",
   "private": true,
