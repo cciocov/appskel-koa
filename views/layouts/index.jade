@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title appskel-js
+    meta(name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1')
+
+    //-<!-- build:css /assets/css/styles.css -->
+    link(href='/libs/bower/bootstrap/dist/css/bootstrap.css' rel='stylesheet')
+    //-<!-- endbuild -->
+
+    block head
+  body
+    block body
+
+    //-<!-- build:js /assets/js/bundle.js -->
+    script(src='/libs/bower/jquery/dist/jquery.js')
+    script(src='/libs/bower/bootstrap/dist/js/bootstrap.js')
+    //-<!-- endbuild -->
+
+    block foot

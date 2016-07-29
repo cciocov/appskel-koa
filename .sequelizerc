@@ -1,0 +1,8 @@
+'use strict';
+
+module.exports = {
+  'migrations-path': __dirname + '/database/migrations',
+  'config': __dirname + '/config/database.js'
+};
+
+// vim: set ft=javascript:
