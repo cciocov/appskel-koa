@@ -78,7 +78,7 @@ module.exports = function(grunt) {
 
     useminPrepare: {
       options: {
-        root: ['client/', 'webroot/'],
+        root: ['.', 'webroot/'],
         dest: 'webroot/'
       },
       html: 'views/.min/**/*.*'
